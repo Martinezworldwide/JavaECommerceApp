@@ -14,10 +14,9 @@
         (async function () {
             await cheerpjInit();
             cheerpjCreateDisplay(800, 600);
-            cheerpjRunMain(
-                "EcommerceApp",  // Replace with the actual main class name
-                "/ECommerceApp.jar"
-            );
+            
+            // Run the application with the fully qualified class name
+            cheerpjRunMain("Java8CheerpJ.EcommerceApp", "/ECommerceApp.jar");
         })();
     </script>
 </body>
