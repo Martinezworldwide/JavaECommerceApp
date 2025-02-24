@@ -15,8 +15,11 @@
             await cheerpjInit();
             cheerpjCreateDisplay(800, 600);
             
-            // Run the application with the fully qualified class name
-            cheerpjRunMain("Java8CheerpJ.EcommerceApp", "/ECommerceApp.jar");
+            // Corrected syntax based on documentation
+            cheerpjRunMain(
+                "Java8CheerpJ.EcommerceApp",
+                "/app/ECommerceApp.jar"
+            );
         })();
     </script>
 </body>
