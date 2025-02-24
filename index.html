@@ -14,8 +14,12 @@
         (async function () {
             await cheerpjInit();
             cheerpjCreateDisplay(800, 600);
-            await cheerpjRunJar("/ECommerceApp.jar"); // Make sure the path is correct
+            cheerpjRunMain(
+                "EcommerceApp",  // Replace with the actual main class name
+                "/ECommerceApp.jar"
+            );
         })();
     </script>
 </body>
 </html>
+
